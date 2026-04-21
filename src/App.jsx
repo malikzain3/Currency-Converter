@@ -54,7 +54,7 @@ setConvertedAmount(amount * currencyInfo[toCurrency])
                     <div className="relative w-full h-0.5">
                         <button
                             type="button"
-                            className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-2 py-0.5 hover:bg-blue-700 transition-all"
+                            className="cursor-pointer absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-2 py-0.5 hover:bg-blue-700 transition-all"
                             onClick={swap}
                         >
                             SWAP
@@ -74,7 +74,7 @@ setConvertedAmount(amount * currencyInfo[toCurrency])
 
                     <button 
                         type="submit" 
-                        className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold"
+                        className="cursor-pointer w-full bg-blue-600 text-white px-4 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold"
                     >
                         Convert {fromCurrency.toUpperCase()} to {toCurrency.toUpperCase()}
                     </button>
